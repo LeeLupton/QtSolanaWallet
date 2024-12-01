@@ -9,6 +9,15 @@
 *.so.*
 *.dll
 *.dylib
+*.obj
+*.lib
+*.exe
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Qt-es
 object_script.*.Release
@@ -28,7 +37,7 @@ ui_*.h
 *.qmlc
 *.jsc
 Makefile*
-*build-*
+build-*/
 *.qm
 *.prl
 
@@ -51,4 +60,23 @@ compile_commands.json
 # QtCreator local machine specific files for imported projects
 *creator.user*
 
+# Qt build folders
+build-*/
+
+# Compiled Object files
+*.o
+*.obj
+*.dll
+*.lib
+*.so
+*.a
+*.exe
+
+# Generated UI files
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# Other files to ignore
+*.log
 *_qmlcache.qrc
